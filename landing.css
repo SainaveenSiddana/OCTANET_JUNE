@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("C:/Users/ADMIN/OneDrive/Pictures/Camera Roll/8ba950eb04b5ad5cf6872f6d804c8837.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  header {
+    background-color: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  header img {
+    width: 150px;
+    height: auto;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .hero {
+    display: flex;
+    margin-top: 50px;
+  }
+  .img_deg{
+    float:right;
+  }
+  
+  .hero-image {
+    flex: 1;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .hero-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .hero-text p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .features {
+    display: contents;
+    margin-top: 50px;
+
+  }
+  .features img{
+    flex:1;
+  }
+  .feature-card h4{
+     font-size: 1.5em;
+     margin-bottom: 20px;
+  }
+  .feature-card p{
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  .features h3{
+    text-align: center;
+    font-size: 4em;
+    font-style: italic;
+    color: rgb(242, 245, 36);
+  }
+  .features h4{
+    font-size: 2em;
+    color:red;
+  }
+  .features img{
+    flex:1;
+    padding:20px;
+  }
+  .feature-card1 h4{
+    text-align: right;
+  }
+  .feature-card1 p{
+    text-align:right;
+  }
+  .feature-card2{
+    flex:1;
+
+  }
+  .feature-card2 h4{
+    font-size:2em;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .feature-card2 p{
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 400px;
+    text-align: left;
+  }
+  .community{
+    flex:1;
+  }
+  .community h3{
+    font-size: 2em;
+    color: rgb(228, 9, 9);
+    margin-bottom: 20px;
+  }
+  .community p{
+    color:rgb(255, 253, 253);
+  }
+  .community-icons{
+    flex:1;
+    padding: 20px;
+  }
+footer p{
+  color: white;
+}
